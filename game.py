@@ -15,5 +15,5 @@ print(user_choice)
 options = ["rock", "paper", "scissors"]
 
 computer_choice = random.choice(options)
-print("computer choose:") 
+print("computer chose:") 
 print(computer_choice)
