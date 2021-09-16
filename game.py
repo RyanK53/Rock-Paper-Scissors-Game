@@ -17,3 +17,6 @@ options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(options)
 print("Computer Chose:") 
 print(computer_choice)
+
+if(user_choice == computer_choice):
+    print("Draw, try again!")
