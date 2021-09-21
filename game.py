@@ -18,7 +18,6 @@ computer_choice = random.choice(options)
 print("Computer Chose:") 
 print(computer_choice)
 
-breakpoint()
 
 if (user_choice != 'Rock' or 'Paper' or 'Scissors'):
     print("Hey! that isn't right, try it again, remember, capitalization matters!")
