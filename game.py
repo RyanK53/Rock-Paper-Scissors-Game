@@ -6,13 +6,13 @@ print("Rock, Paper, Scissors, Shoot!")
 
 #prompt user for input
 
-user_choice = input("Choose 'rock' or 'paper' or 'scissors':")
+user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
 print("You Chose:")
 print(user_choice)
 
 # Computer Choice
 
-options = ["rock", "paper", "scissors"]
+options = ['Rock', 'Paper', 'Scissors']
 
 computer_choice = random.choice(options)
 print("Computer Chose:") 
