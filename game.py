@@ -18,7 +18,9 @@ computer_choice = random.choice(options)
 print("Computer Chose:") 
 print(computer_choice)
 
-if(user_choice == computer_choice):
+if (user_choice != 'Rock' or 'Paper' or 'Scissors'):
+    print("Hey! that isn't right, try it again, remember capitalization matters!")
+elif(user_choice == computer_choice):
     print("Draw, try again!")
 elif(user_choice == 'Rock' and computer_choice == 'Scissors'):
     print("You win! Nice Job")
