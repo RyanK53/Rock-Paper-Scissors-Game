@@ -10,7 +10,7 @@ user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
 if (user_choice in 'Rock' or 'Paper' or 'Scissors'):
     print("You Chose:")
     print(user_choice) 
-elif:
+elif :
     print("not quite right, try again")
 
 
