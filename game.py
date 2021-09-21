@@ -9,6 +9,7 @@ print("Rock, Paper, Scissors, Shoot!")
 user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
 print("You Chose:")
 print(user_choice) 
+print("-----------------")
 
 
 
@@ -19,6 +20,7 @@ options = ['Rock', 'Paper', 'Scissors']
 computer_choice = random.choice(options)
 print("Computer Chose:") 
 print(computer_choice)
+print("----------------")
 
 
 if(user_choice == computer_choice):
