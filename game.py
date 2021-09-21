@@ -7,8 +7,11 @@ print("Rock, Paper, Scissors, Shoot!")
 #prompt user for input
 
 user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
-print("You Chose:")
-print(user_choice) 
+if (user_choice in 'Rock' or 'Paper' or 'Scissors'):
+    print("You Chose:")
+    print(user_choice) 
+elif:
+    print("not quite right, try again")
 
 
 # Computer Choice
@@ -34,5 +37,3 @@ elif(user_choice == 'Rock' and computer_choice == 'Paper'):
     print("You lose :( try again next time!")
 elif(user_choice == 'Paper' and computer_choice == 'Rock'):
     print("You win! Nice Job")
-elif (user_choice != 'Rock' or 'Paper' or 'Scissors'):
-    print("That doesn't look right, remember, capitilization matters!")
