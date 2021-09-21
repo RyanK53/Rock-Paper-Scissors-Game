@@ -35,4 +35,4 @@ elif(user_choice == 'Rock' and computer_choice == 'Paper'):
 elif(user_choice == 'Paper' and computer_choice == 'Rock'):
     print("You win! Nice Job")
 elif (user_choice != 'Rock' or 'Paper' or 'Scissors'):
-    print("Remember you have to write Rock, Paper, or Scissors, that doesnt quite look right, remember, capitilization matters")
+    print("That doesn't look right, remember, capitilization matters!")
