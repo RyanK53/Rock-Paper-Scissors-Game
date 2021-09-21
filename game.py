@@ -37,3 +37,5 @@ elif(user_choice == 'Paper' and computer_choice == 'Rock'):
     print("You win! Nice Job")
 elif(user_choice != 'Rock' or 'Paper' or 'Scissors'):
     print("That doesn't look right, try again, remember, capitilization matters")
+
+print('Thank You for Playing!')
