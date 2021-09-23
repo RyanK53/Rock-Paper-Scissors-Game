@@ -3,7 +3,8 @@ import random
 
 
 print("Rock, Paper, Scissors, Shoot!")
-
+print("----------------")
+user_name = input("Welcome to the game, what is your name?")
 #prompt user for input
 
 user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
@@ -41,6 +42,6 @@ elif(user_choice == 'Paper' and computer_choice == 'Rock'):
 elif(user_choice != 'Rock' or 'Paper' or 'Scissors'):
     print("That doesn't look right, try again, remember, capitalization matters")
 
-print("------------------")
+print("-----------------")
 print("Thank you for playing!")
 
