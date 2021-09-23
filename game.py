@@ -1,5 +1,7 @@
 # game.py
 import random
+import os
+from dotenv import load_dotenv
 user_name = input("Hello, what is your name: ")
 print("----------------")
 print("Welcome let's play Rock, Paper, Scissors")
