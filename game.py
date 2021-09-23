@@ -41,5 +41,6 @@ elif(user_choice != 'Rock' or 'Paper' or 'Scissors'):
     print("That doesn't look right, try again, remember, capitalization matters")
 
 print("-----------------")
-print("Thank you for playing" user_name) 
+print("Thank you for playing")
+print(user_name) 
 
