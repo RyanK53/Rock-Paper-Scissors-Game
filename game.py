@@ -1,7 +1,8 @@
 # game.py
 import random
 
-from env import .env 
+import os
+from dotenv import load_dotenv
 print("Welocme 'USER' let's play Rock, Paper, Scissors")
 print("----------------")
 #prompt user for input
