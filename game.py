@@ -1,8 +1,7 @@
 # game.py
 import random
 
-import os
-import dotenv
+pip install python-dotenv 
 from dotenv import load_dotenv
 print("Welocme 'USER' let's play Rock, Paper, Scissors")
 print("----------------")
