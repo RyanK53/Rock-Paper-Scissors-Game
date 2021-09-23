@@ -2,6 +2,7 @@
 import random
 
 import os
+import python-dotenv
 from dotenv import load_dotenv
 print("Welocme 'USER' let's play Rock, Paper, Scissors")
 print("----------------")
