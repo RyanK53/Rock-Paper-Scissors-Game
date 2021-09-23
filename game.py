@@ -1,7 +1,7 @@
 # game.py
 import random
 
-
+env = 'USER'
 print("Welocme 'PLAYER_NAME' let's play Rock, Paper, Scissors")
 print("----------------")
 #prompt user for input
