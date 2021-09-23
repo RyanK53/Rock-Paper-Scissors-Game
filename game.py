@@ -2,11 +2,9 @@
 import random
 
 
-print("Rock, Paper, Scissors, Shoot!")
+print("Welocme 'PLAYER_NAME' let's play Rock, Paper, Scissors")
 print("----------------")
-user_name = input("Welcome to the game, what is your name?")
 #prompt user for input
-
 user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
 print("-----------------")
 print("You Chose:")
