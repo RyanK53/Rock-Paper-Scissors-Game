@@ -1,9 +1,8 @@
 # game.py
 import random
-
-pip install python-dotenv 
-from dotenv import load_dotenv
-print("Welocme 'USER' let's play Rock, Paper, Scissors")
+user_name = input("Hello, what is your name: ")
+print("----------------")
+print("Welocme 'user_name' let's play Rock, Paper, Scissors")
 print("----------------")
 #prompt user for input
 user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
