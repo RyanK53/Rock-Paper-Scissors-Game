@@ -5,7 +5,7 @@ print("----------------")
 print("Welcome, let's play Rock, Paper, Scissors")
 print("----------------")
 #prompt user for input
-user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
+user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors': ")
 print("-----------------")
 print("You Chose:")
 print(user_choice) 
