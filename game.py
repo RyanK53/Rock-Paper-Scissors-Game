@@ -2,7 +2,7 @@
 import random
 
 env = 'USER'
-print("Welocme 'PLAYER_NAME' let's play Rock, Paper, Scissors")
+print("Welocme 'USER' let's play Rock, Paper, Scissors")
 print("----------------")
 #prompt user for input
 user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
