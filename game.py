@@ -2,7 +2,7 @@
 import random
 user_name = input("Hello, what is your name: ")
 print("----------------")
-print("Welocme 'user_name' let's play Rock, Paper, Scissors")
+print("Welocme %d let's play Rock, Paper, Scissors") % user_name
 print("----------------")
 #prompt user for input
 user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors':")
