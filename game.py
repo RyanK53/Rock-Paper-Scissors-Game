@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 import os
 from dotenv import load_dotenv
-USER_NAME = os.getenv("USER_NAME", default="PLAYER_NAME")
+USER_NAME = os.getenv(USER_NAME)
 print("Hello there",USER_NAME) 
 print("----------------")
 print("Welcome let's play Rock, Paper, Scissors")
