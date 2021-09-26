@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors-Game
-# note, I used this (https://raw.githubusercontent.com/prof-rossetti/my-first-python-app/main/README.md) as an outline to create this README file
+# Note, I used this (https://raw.githubusercontent.com/prof-rossetti/my-first-python-app/main/README.md) as an outline to create this README file
 ## Prerequisites
 
   + Anaconda 3.7+
