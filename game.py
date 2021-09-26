@@ -2,11 +2,11 @@
 import random
 import os
 from dotenv import load_dotenv
-import os
-from dotenv import load_dotenv
-USER_NAME = os.environ['USER_NAME']
 
-print("Hello there",USER_NAME) 
+load_dotenv()
+
+PLAYER_NAME = os.getenv("PLAYER_NAME")
+print("Welcome", PLAYER_NAME,"to my Rock-Paper-Scissors game...")
 print("----------------")
 print("Welcome let's play Rock, Paper, Scissors")
 print("----------------")
