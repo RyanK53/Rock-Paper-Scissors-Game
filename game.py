@@ -4,7 +4,6 @@ import os
 from dotenv import load_dotenv
 import os
 from dotenv import load_dotenv
-USER_NAME = os.environ['USER_NAME']
 
 print("Hello there",USER_NAME) 
 print("----------------")
