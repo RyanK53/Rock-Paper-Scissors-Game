@@ -24,3 +24,9 @@ pip install -r requirements.txt
 In the root directory of your local repository, create a new file called ".env", now update the contents of the file to specify your preferred user name, make sure to save the file once you are finished editing it
 
     PLAYER_NAME="PLAYER_NAME"
+
+## Usage
+
+Now you get to Run the Python script:
+python app/my_script.py
+
