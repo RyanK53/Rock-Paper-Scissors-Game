@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-PLAYER_NAME = os.getenv("PLAYER_NAME")
-print("Welcome", PLAYER_NAME,"to my Rock-Paper-Scissors game...")
+PLAYER_NAME = os.getenv("USER_NAME")
+print("Welcome", USER_NAME,"to my Rock-Paper-Scissors game...")
 print("----------------")
 print("Welcome let's play Rock, Paper, Scissors")
 print("----------------")
