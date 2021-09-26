@@ -4,13 +4,13 @@ import os
 from dotenv import load_dotenv
 import os
 from dotenv import load_dotenv
-USER_NAME = os.getenv(USER_NAME)
+USER_NAME = os.getenv("USER_NAME")
 
 print("Hello there",USER_NAME) 
 print("----------------")
 print("Welcome let's play Rock, Paper, Scissors")
 print("----------------")
-#prompt user for input
+
 user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors': ")
 print("-----------------")
 print("You Chose:")
