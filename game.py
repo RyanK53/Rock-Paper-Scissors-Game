@@ -4,8 +4,9 @@ import os
 from dotenv import load_dotenv
 import os
 from dotenv import load_dotenv
+USER_NAME = os.getenv("USER_NAME")
 
-print("Hello there",load_dotenv()) 
+print("Hello there",USER_NAME) 
 print("----------------")
 print("Welcome let's play Rock, Paper, Scissors")
 print("----------------")
@@ -46,6 +47,6 @@ elif(user_choice != 'Rock' or 'Paper' or 'Scissors'):
     print("That doesn't look right, try again, remember, capitalization matters")
 
 print("-----------------")
-print("Thank you for playing",load_dotenv())
+print("Thank you for playing",USER_NAME)
  
 
