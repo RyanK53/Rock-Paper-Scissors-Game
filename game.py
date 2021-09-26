@@ -8,8 +8,6 @@ load_dotenv()
 PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
 print("Welcome", PLAYER_NAME, "Let's play Rock-Paper-Scissors!")
 print("----------------")
-print("Welcome let's play Rock, Paper, Scissors")
-print("----------------")
 
 user_choice = input("Choose 'Rock' or 'Paper' or 'Scissors': ")
 print("-----------------")
